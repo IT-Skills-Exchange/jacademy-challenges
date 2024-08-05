@@ -6,9 +6,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-/**
- * Provides tests for the <code>RemoveNthLastNode</code> solution.
- */
 @DisplayName("Remove Nth Last Node Test")
 public class RemoveNthLastNodeTest {
 

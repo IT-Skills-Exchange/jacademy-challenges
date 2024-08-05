@@ -5,9 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * Provides tests for the <code>SortColors</code> solution.
- */
 @DisplayName("Sort Colors Test")
 public class SortColorsTest {
 
