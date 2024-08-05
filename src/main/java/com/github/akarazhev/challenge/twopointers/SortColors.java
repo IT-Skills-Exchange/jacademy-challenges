@@ -1,14 +1,13 @@
 package com.github.akarazhev.challenge.twopointers;
 
-/**
- * Provides <code>Sort Colors</code> solution.
- */
 public class SortColors {
+
     /**
-     * This function takes an array of colors and sort it.
+     * Sorts an array of integers in-place, where all zeros are placed at the beginning,
+     * all ones in the middle, and all twos at the end.
      *
-     * @param colors the list of array.
-     * @return the sorted array.
+     * @param colors the array of integers to be sorted
+     * @return the sorted array of integers
      */
     public static int[] sortColors(int[] colors) {
         int temp;
