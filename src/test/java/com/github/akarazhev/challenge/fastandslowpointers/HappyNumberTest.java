@@ -6,9 +6,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * Provides tests for the <code>HappyNumberTest</code> solution.
- */
 @DisplayName("Happy Number Test")
 public class HappyNumberTest {
 

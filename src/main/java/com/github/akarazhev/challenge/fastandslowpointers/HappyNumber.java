@@ -1,15 +1,13 @@
 package com.github.akarazhev.challenge.fastandslowpointers;
 
-/**
- * Provides <code>Happy Number</code> solution.
- */
 public class HappyNumber {
 
     /**
-     * This function takes a number and evaluates if it's the happy number or not.
+     * Determines if a given number is a happy number. A happy number is a number that eventually reaches 1 when
+     * repeatedly replacing it with the sum of the squares of its digits.
      *
-     * @param n the number.
-     * @return the result of operation.
+     * @param n the number to check if it is a happy number
+     * @return true if the number is a happy number, false otherwise
      */
     public static boolean isHappyNumber(int n) {
         int slow = n;
