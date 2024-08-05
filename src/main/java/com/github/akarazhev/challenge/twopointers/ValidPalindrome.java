@@ -1,15 +1,12 @@
 package com.github.akarazhev.challenge.twopointers;
 
-/**
- * Provides <code>Valid Palindrome</code> solution.
- */
 public class ValidPalindrome {
 
     /**
-     * This function takes a string, s, as an input and determines whether or not it is a palindrome.
+     * Checks if a given string is a palindrome.
      *
-     * @param s the string.
-     * @return the result of operation.
+     * @param s the string to be checked
+     * @return true if the string is a palindrome, false otherwise
      */
     public static boolean isPalindrome(String s) {
         for (int i = 0; i < s.length(); i++) {
