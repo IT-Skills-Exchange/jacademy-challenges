@@ -1,16 +1,13 @@
 package com.github.akarazhev.challenge.twopointers;
 
-/**
- * Provides <code>Remove nth Node from End of List</code> solution.
- */
 public class RemoveNthLastNode {
 
     /**
-     * This function takes a head pointer of the list, and n as the position to remove from end of the list.
+     * Removes the nth node from the end of a linked list.
      *
-     * @param head the begging og the list.
-     * @param n    the position.
-     * @return the final list.
+     * @param  head	the head of the linked list
+     * @param  n		the position of the node to remove from the end
+     * @return         	the head of the modified linked list
      */
     public static LinkedListNode removeNthLastNode(LinkedListNode head, int n) {
         LinkedListNode right = head;
