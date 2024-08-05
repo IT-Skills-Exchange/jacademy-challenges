@@ -1,15 +1,12 @@
 package com.github.akarazhev.challenge.fastandslowpointers;
 
-/**
- * Help class for the sum of squared digits.
- */
 public class SumOfSquaredDigits {
 
     /**
-     * Helper function that calculates the sum of squared digits.
+     * Calculates the sum of the squares of the digits of a given number.
      *
-     * @param number the number to be calculated.
-     * @return the sum of squared digits.
+     * @param number the number whose digits are to be squared and summed
+     * @return the sum of the squares of the digits of the given number
      */
     public static int sumOfSquaredDigits(int number) {
         int sum = 0;
