@@ -18,4 +18,14 @@ public class ValidPalindromeTest {
         assertTrue(ValidPalindrome.isPalindrome("A"));
         assertFalse(ValidPalindrome.isPalindrome("ABCDABCD"));
     }
+
+    @Test
+    @DisplayName("Test Valid Palindrome With Pointers")
+    void testValidPalindromeWithPointers() {
+        assertTrue(ValidPalindrome.isPalindromeWithPointers("kayak"));
+        assertFalse(ValidPalindrome.isPalindromeWithPointers("hello"));
+        assertFalse(ValidPalindrome.isPalindromeWithPointers("RACEACAR"));
+        assertTrue(ValidPalindrome.isPalindromeWithPointers("A"));
+        assertFalse(ValidPalindrome.isPalindromeWithPointers("ABCDABCD"));
+    }
 }
