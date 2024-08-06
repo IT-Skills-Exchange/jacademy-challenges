@@ -4,12 +4,17 @@ public class LinkedListNode {
     public int data;
     public LinkedListNode next;
 
-    // Constructor will be used to make a LinkedListNode type object
     public LinkedListNode(int data) {
         this.data = data;
         next = null;
     }
 
+    /**
+     * Converts the linked list starting from the current node to a string representation.
+     *
+     * @return a string representation of the linked list starting from the current node,
+     * with each node's data separated by "->"
+     */
     public String asList() {
         StringBuilder list = new StringBuilder();
         list.append(data);
