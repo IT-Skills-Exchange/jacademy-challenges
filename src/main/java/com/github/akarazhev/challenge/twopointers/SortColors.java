@@ -10,27 +10,27 @@ public class SortColors {
      * @return the sorted array of integers
      */
     public static int[] sortColors(int[] colors) {
+        int start = 0;
+        int current = 0;
+        int end = colors.length - 1;
         int temp;
-        int red = 0;
-        int white = 0;
-        int blue = colors.length - 1;
-        while (white <= blue) {
-            if (colors[white] == 0) {
-                if (colors[red] != 0) {
-                    temp = colors[white];
-                    colors[white] = colors[red];
-                    colors[red] = temp;
+        while (current <= end) {
+            if (colors[current] == 0) {
+                if (colors[start] != 0) {
+                    temp = colors[start];
+                    colors[start] = colors[current];
+                    colors[current] = temp;
                 }
 
-                white++;
-                red++;
-            } else if (colors[white] == 1) {
-                white++;
+                current++;
+                start++;
+            } else if (colors[current] == 1) {
+                current++;
             } else {
-                temp = colors[white];
-                colors[white] = colors[blue];
-                colors[blue] = temp;
-                blue--;
+                temp = colors[current];
+                colors[current] = colors[end];
+                colors[end] = temp;
+                end--;
             }
         }
 
