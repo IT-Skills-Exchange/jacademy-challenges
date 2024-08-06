@@ -12,7 +12,7 @@ public class SumOfSquaredDigits {
         int sum = 0;
         while (number > 0) {
             int digit = number % 10;
-            sum += Math.pow(digit, 2);
+            sum += (int) Math.pow(digit, 2);
             number = number / 10;
         }
 
