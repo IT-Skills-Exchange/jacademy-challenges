@@ -1,5 +1,7 @@
 package com.github.akarazhev.challenge.twopointers;
 
+import com.github.akarazhev.challenge.commons.LinkedListNode;
+
 public class RemoveNthLastNode {
 
     /**

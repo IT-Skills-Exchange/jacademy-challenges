@@ -1,4 +1,4 @@
-package com.github.akarazhev.challenge.twopointers;
+package com.github.akarazhev.challenge.commons;
 
 public class LinkedListNode {
     public int data;
@@ -7,7 +7,7 @@ public class LinkedListNode {
     // Constructor will be used to make a LinkedListNode type object
     public LinkedListNode(int data) {
         this.data = data;
-        this.next = null;
+        next = null;
     }
 
     public String asList() {

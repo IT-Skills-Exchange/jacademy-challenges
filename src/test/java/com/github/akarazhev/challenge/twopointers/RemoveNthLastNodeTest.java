@@ -1,5 +1,7 @@
 package com.github.akarazhev.challenge.twopointers;
 
+import com.github.akarazhev.challenge.commons.LinkedList;
+import com.github.akarazhev.challenge.commons.LinkedListNode;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
