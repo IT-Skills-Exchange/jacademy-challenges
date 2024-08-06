@@ -1,4 +1,4 @@
-package com.github.akarazhev.challenge.fastandslowpointers;
+package com.github.akarazhev.challenge.commons;
 
 public class SumOfSquaredDigits {
 

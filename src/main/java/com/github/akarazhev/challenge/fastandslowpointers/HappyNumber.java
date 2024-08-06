@@ -1,5 +1,7 @@
 package com.github.akarazhev.challenge.fastandslowpointers;
 
+import com.github.akarazhev.challenge.commons.SumOfSquaredDigits;
+
 public class HappyNumber {
 
     /**
