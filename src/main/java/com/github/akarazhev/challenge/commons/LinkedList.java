@@ -27,7 +27,7 @@ public class LinkedList {
     }
 
     // returns the node at the specified position(index) of the linked list
-    public static LinkedListNode getNode(LinkedListNode head, int pos) {
+    public LinkedListNode getNode(LinkedListNode head, int pos) {
         LinkedListNode ptr = head;
         if (pos != -1) {
             int p = 0;
@@ -43,7 +43,7 @@ public class LinkedList {
     }
 
     // returns the number of nodes in the linked list
-    public static int getLength(LinkedListNode head) {
+    public int getLength(LinkedListNode head) {
         LinkedListNode temp = head;
         int count = 0;
         while (temp != null) {

@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@DisplayName("Sort Colors Test")
+@DisplayName("Sort colors test")
 public class SortColorsTest {
 
     @Test
-    @DisplayName("Test Sort 3 colors")
+    @DisplayName("Test sort 3 colors")
     void testSort3Colors() {
         int[] colors = SortColors.sortColors(new int[]{0, 1, 0});
         assertEquals(0, colors[0]);
@@ -18,13 +18,13 @@ public class SortColorsTest {
     }
 
     @Test
-    @DisplayName("Test Sort 1 color")
+    @DisplayName("Test sort 1 color")
     void testSort1Color() {
         assertEquals(1, SortColors.sortColors(new int[]{1})[0]);
     }
 
     @Test
-    @DisplayName("Test Sort 2 colors")
+    @DisplayName("Test sort 2 colors")
     void testSort2Colors() {
         int[] colors = SortColors.sortColors(new int[]{2, 2});
         assertEquals(2, colors[0]);
@@ -32,7 +32,7 @@ public class SortColorsTest {
     }
 
     @Test
-    @DisplayName("Test Sort 4 colors")
+    @DisplayName("Test sort 4 colors")
     void testSort4Colors() {
         int[] colors = SortColors.sortColors(new int[]{1, 1, 0, 2});
         assertEquals(0, colors[0]);
@@ -42,7 +42,7 @@ public class SortColorsTest {
     }
 
     @Test
-    @DisplayName("Test Sort 5 colors")
+    @DisplayName("Test sort 5 colors")
     void testSort5Colors() {
         int[] colors = SortColors.sortColors(new int[]{2, 1, 1, 0, 0});
         assertEquals(0, colors[0]);

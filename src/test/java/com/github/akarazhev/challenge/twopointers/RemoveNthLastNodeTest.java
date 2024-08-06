@@ -8,11 +8,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@DisplayName("Remove Nth Last Node Test")
+@DisplayName("Remove nth last node test")
 public class RemoveNthLastNodeTest {
 
     @Test
-    @DisplayName("Test Remove 1th Last Node")
+    @DisplayName("Test remove 1th last node")
     void testRemove1thLastNode() {
         LinkedList linkedList = new LinkedList();
         linkedList.createLinkedList(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9});
@@ -22,7 +22,7 @@ public class RemoveNthLastNodeTest {
     }
 
     @Test
-    @DisplayName("Test Remove 2th Last Node")
+    @DisplayName("Test remove 2th last node")
     void testRemove2thLastNode() {
         LinkedList linkedList = new LinkedList();
         linkedList.createLinkedList(new int[]{23, 28, 10, 5, 67, 39, 70, 28});
@@ -32,7 +32,7 @@ public class RemoveNthLastNodeTest {
     }
 
     @Test
-    @DisplayName("Test Remove 3th Last Node")
+    @DisplayName("Test remove 3th last node")
     void testRemove3thLastNode() {
         LinkedList linkedList = new LinkedList();
         linkedList.createLinkedList(new int[]{34, 53, 6, 95, 38, 28, 17, 63, 16, 76});
@@ -42,7 +42,7 @@ public class RemoveNthLastNodeTest {
     }
 
     @Test
-    @DisplayName("Test Remove 4th Last Node")
+    @DisplayName("Test remove 4th last node")
     void testRemove4thLastNode() {
         LinkedList linkedList = new LinkedList();
         linkedList.createLinkedList(new int[]{288, 224, 275, 390, 4, 383, 330, 60, 193});
@@ -52,7 +52,7 @@ public class RemoveNthLastNodeTest {
     }
 
     @Test
-    @DisplayName("Test Remove 6th Last Node")
+    @DisplayName("Test remove 6th last node")
     void testRemove6thLastNode() {
         LinkedList linkedList = new LinkedList();
         linkedList.createLinkedList(new int[]{69, 8, 49, 106, 116, 112});

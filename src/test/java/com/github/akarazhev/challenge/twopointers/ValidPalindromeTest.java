@@ -6,11 +6,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@DisplayName("Valid Palindrome Test")
+@DisplayName("Valid palindrome test")
 public class ValidPalindromeTest {
 
     @Test
-    @DisplayName("Test Valid Palindrome")
+    @DisplayName("Test valid palindrome")
     void testValidPalindrome() {
         assertTrue(ValidPalindrome.isPalindrome("kayak"));
         assertFalse(ValidPalindrome.isPalindrome("hello"));
@@ -20,7 +20,7 @@ public class ValidPalindromeTest {
     }
 
     @Test
-    @DisplayName("Test Valid Palindrome With Pointers")
+    @DisplayName("Test valid palindrome with pointers")
     void testValidPalindromeWithPointers() {
         assertTrue(ValidPalindrome.isPalindromeWithPointers("kayak"));
         assertFalse(ValidPalindrome.isPalindromeWithPointers("hello"));
