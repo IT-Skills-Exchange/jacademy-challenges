@@ -11,6 +11,8 @@ public class RemoveNthLastNode {
      */
     public static LinkedListNode removeNthLastNode(LinkedListNode head, int n) {
         LinkedListNode right = head;
+        LinkedListNode left = head;
+
         for (int i = 0; i < n; i++) {
             right = right.next;
         }
@@ -19,7 +21,6 @@ public class RemoveNthLastNode {
             return head != null ? head.next : null;
         }
 
-        LinkedListNode left = head;
         while (right.next != null) {
             right = right.next;
             left = left.next;
