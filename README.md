@@ -31,7 +31,7 @@ statement. For example, to identify whether a string is a palindrome, we can use
 the beginning and the other to iterate it from the end. At each step, we can compare the values of the two pointers and 
 see if they meet the palindrome properties.
 
-- [Two Pointers Tasks](doc/twopointers/two_pointers.md "Two Pointers Tasks")
+- [Two Pointers Tasks](doc/two_pointers.md "Two Pointers Tasks")
 
 ### Fast and Slow Pointers
 
@@ -48,4 +48,4 @@ is a cycle, the two are bound to meet at some point during the traversal. To und
 runners on a track. While they start from the same point, they have different running speeds. If the track is circular, 
 the faster runner will overtake the slower one after completing a lap.
 
-- [Fast and Slow Pointers Tasks](doc/fastandslowpointers/fast_and_slow_pointers.md "Fast and Slow Pointers Tasks")
+- [Fast and Slow Pointers Tasks](doc/fast_and_slow_pointers.md "Fast and Slow Pointers Tasks")

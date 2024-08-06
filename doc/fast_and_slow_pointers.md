@@ -21,8 +21,8 @@ Return TRUE if n is a happy number, and FALSE if not.
 
 ### Solution
 
-The solution is here: [HappyNumber.java](../../src/main/java/com/github/akarazhev/challenge/fastandslowpointers/HappyNumber.java "HappyNumber.java").
-Tests are here: [HappyNumberTest.java](../../src/test/java/com/github/akarazhev/challenge/fastandslowpointers/HappyNumberTest.java "HappyNumberTest.java").
+The solution is here: [HappyNumber.java](../src/main/java/com/github/akarazhev/challenge/fastandslowpointers/HappyNumber.java "HappyNumber.java").
+Tests are here: [HappyNumberTest.java](../src/test/java/com/github/akarazhev/challenge/fastandslowpointers/HappyNumberTest.java "HappyNumberTest.java").
 
 ### Complexity
 
@@ -48,4 +48,4 @@ The space complexity for this algorithm is O(1).
 
 <hr>
 
-Go to [README](../../README.md "README.me")
+Go to [README](../README.md "README.me")

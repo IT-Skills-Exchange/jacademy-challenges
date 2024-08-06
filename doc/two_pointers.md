@@ -15,8 +15,8 @@ Write a function that takes a string, **s**, as an input and determines whether 
 
 ### Solution
 
-The solution is here: [ValidPalindrome.java](../../src/main/java/com/github/akarazhev/challenge/twopointers/ValidPalindrome.java "ValidPalindrome.java").
-Tests are here: [ValidPalindromeTest.java](../../src/test/java/com/github/akarazhev/challenge/twopointers/ValidPalindromeTest.java "ValidPalindromeTest.java").
+The solution is here: [ValidPalindrome.java](../src/main/java/com/github/akarazhev/challenge/twopointers/ValidPalindrome.java "ValidPalindrome.java").
+Tests are here: [ValidPalindromeTest.java](../src/test/java/com/github/akarazhev/challenge/twopointers/ValidPalindromeTest.java "ValidPalindromeTest.java").
 
 ### Complexity
 
@@ -44,8 +44,8 @@ Given a singly linked list, remove the _nth_ node from the end of the list and r
 
 ### Solution
 
-The solution is here: [RemoveNthLastNode.java](../../src/main/java/com/github/akarazhev/challenge/twopointers/RemoveNthLastNode.java "RemoveNthLastNode.java").
-Tests are here: [RemoveNthLastNodeTest.java](../../src/test/java/com/github/akarazhev/challenge/twopointers/RemoveNthLastNodeTest.java "RemoveNthLastNodeTest.java").
+The solution is here: [RemoveNthLastNode.java](../src/main/java/com/github/akarazhev/challenge/twopointers/RemoveNthLastNode.java "RemoveNthLastNode.java").
+Tests are here: [RemoveNthLastNodeTest.java](../src/test/java/com/github/akarazhev/challenge/twopointers/RemoveNthLastNodeTest.java "RemoveNthLastNodeTest.java").
 
 ### Complexity
 
@@ -78,8 +78,8 @@ and blue. The function should return the same array.
 
 ### Solution
 
-The solution is here: [SortColors.java](../../src/main/java/com/github/akarazhev/challenge/twopointers/SortColors.java "SortColors.java").
-Tests are here: [SortColorsTest.java](../../src/test/java/com/github/akarazhev/challenge/twopointers/SortColorsTest.java "SortColorsTest.java").
+The solution is here: [SortColors.java](../src/main/java/com/github/akarazhev/challenge/twopointers/SortColors.java "SortColors.java").
+Tests are here: [SortColorsTest.java](../src/test/java/com/github/akarazhev/challenge/twopointers/SortColorsTest.java "SortColorsTest.java").
 
 ### Complexity
 
@@ -93,4 +93,4 @@ The space complexity of this solution is O(1), since no extra space is used.
 
 <hr>
 
-Go to [README](../../README.md "README.me")
+Go to [README](../README.md "README.me")
