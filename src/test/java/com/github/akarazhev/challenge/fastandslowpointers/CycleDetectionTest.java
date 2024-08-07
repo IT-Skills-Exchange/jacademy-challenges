@@ -41,7 +41,7 @@ public class CycleDetectionTest {
 
         int length = list.getLength(list.head);
         LinkedListNode lastNode = list.getNode(list.head, length - 1);
-        lastNode.next = list.getNode(list.head, 0);
+        lastNode.next = list.getNode(list.head, 1);
 
         assertTrue(CycleDetection.detectCycle(list.head));
     }
@@ -63,7 +63,7 @@ public class CycleDetectionTest {
 
         int length = list.getLength(list.head);
         LinkedListNode lastNode = list.getNode(list.head, length - 1);
-        lastNode.next = list.getNode(list.head, 0);
+        lastNode.next = list.getNode(list.head, 2);
 
         assertTrue(CycleDetection.detectCycle(list.head));
     }
