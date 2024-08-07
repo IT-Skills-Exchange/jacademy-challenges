@@ -15,9 +15,9 @@ public class LinkedList {
     public void insertNodeAtHead(LinkedListNode node) {
         if (head != null) {
             node.next = head;
-        } else {
-            head = node;
         }
+
+        head = node;
     }
 
     /**
