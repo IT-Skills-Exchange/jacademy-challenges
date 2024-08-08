@@ -2,7 +2,7 @@ package com.github.akarazhev.challenge.twopointers;
 
 import com.github.akarazhev.challenge.commons.LinkedListNode;
 
-public class RemoveNthLastNode {
+public class RemoveNthNode {
 
     /**
      * Removes the nth node from the end of a linked list.
