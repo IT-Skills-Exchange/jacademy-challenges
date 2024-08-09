@@ -49,3 +49,34 @@ runners on a track. While they start from the same point, they have different ru
 the faster runner will overtake the slower one after completing a lap.
 
 - [Fast and Slow Pointers Tasks](doc/fast_and_slow_pointers.md "Fast and Slow Pointers Tasks")
+
+### Modified Binary Search
+
+The modified binary search pattern is an extension of the traditional binary search algorithm and can be applied to a 
+wide range of problems. Before we delve into the modified version, let’s first recap the classic binary search algorithm.
+
+Classic Binary Search
+
+Binary search is an efficient search algorithm for searching a target value in sorted arrays or sorted lists that support 
+direct addressing (also known as random access). It follows a divide-and-conquer approach, significantly reducing 
+the search space with each iteration. 
+
+Modified Binary Search
+
+The modified binary search pattern builds upon the basic binary search algorithm discussed above. It involves adapting 
+the traditional binary search approach by applying certain conditions or transformations, allowing us to solve problems 
+in which input data are modified in a certain way.
+
+A few common variations of the modified binary search pattern are:
+
+1. Binary search on a modified array: Sometimes, the array may be modified in a certain way, which affects the search 
+process. For example, the array might be sorted and then rotated around some unknown pivot. Alternatively, some elements 
+in a sorted array might be modified based on a specific condition. To handle such scenarios, we can modify the basic 
+binary search technique to detect anomalies in the sorted order.
+
+2. Binary search with multiple requirements: When searching for a target satisfying multiple requirements, a modified 
+binary search can be used. It involves adapting the comparison logic within the binary search to accommodate multiple 
+specifications. Examples include finding a target range rather than a single target or finding the leftmost or the 
+rightmost occurrence of a target value.
+
+- [Modified Binary Search Tasks](doc/modified_binary_search.md "Modified Binary Search Tasks")
