@@ -48,6 +48,33 @@ The space complexity for this algorithm is O(1).
 
 ## Linked List Cycle
 
+### Statement
+
+Check whether or not a linked list contains a cycle. If a cycle exists, return TRUE. Otherwise, return FALSE. 
+The cycle means that at least one node can be reached again by traversing the next pointer.
+
+#### Constraints
+
+Let n be the number of nodes in a linked list.
+
+- 0 <= n <= 500
+- -10^5 <= Node.data <= 10^5
+
+### Solution
+
+The solution is here: [CycleDetection.java](../src/main/java/com/github/akarazhev/challenge/fastandslowpointers/CycleDetection.java "CycleDetection.java").
+Tests are here: [CycleDetectionTest.java](../src/test/java/com/github/akarazhev/challenge/fastandslowpointers/CycleDetectionTest.java "CycleDetectionTest.java").
+
+### Complexity
+
+#### Time complexity
+
+The time complexity of the algorithm is O(n), where n is the number of nodes in the linked list.
+
+#### Space complexity
+
+The space complexity of the algorithm above is O(1).
+
 ## Middle of the Linked List
 
 <hr>
