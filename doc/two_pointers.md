@@ -4,14 +4,14 @@
 
 ### Statement
 
-Write a function that takes a string, **s**, as an input and determines whether or not it is a palindrome.
+Write a function that takes a string, s, as an input and determines whether or not it is a palindrome.
 
-> Note: A **palindrome** is a word, phrase, or sequence of characters that reads the same backward as forward.
+> Note: A palindrome is a word, phrase, or sequence of characters that reads the same backward as forward.
 
 #### Constraints
 
-- 1 ≤ **s.length** ≤ 2 * 10^5
-- The string **s** will contain English uppercase and lowercase letters, digits, and spaces.
+- 1 ≤ s.length ≤ 2 * 10^5
+- The string s will contain English uppercase and lowercase letters, digits, and spaces.
 
 ### Solution
 
@@ -33,14 +33,14 @@ The space complexity is O(1), since we use constant space to store two indexes.
 
 ### Statement
 
-Given a singly linked list, remove the _nth_ node from the end of the list and return its head.
+Given a singly linked list, remove the nth node from the end of the list and return its head.
 
 #### Constraints
 
-- The number of nodes in the list is **k**.
-- 1 ≤ **k** ≤ 10^3
-- -10^3 ≤ **Node.value** ≤ 10^3
-- 1 ≤ **n** ≤ **k**
+- The number of nodes in the list is k.
+- 1 ≤ k ≤ 10^3
+- -10^3 ≤ Node.value ≤ 10^3
+- 1 ≤ n ≤ k
 
 ### Solution
 
@@ -61,7 +61,7 @@ The space complexity is O(1), because we use constant space to store two pointer
 
 ### Statement
 
-Given an array, **colors**, which contains a combination of the following three elements:
+Given an array, colors, which contains a combination of the following three elements:
 - 0 (representing red)
 - 1 (representing white)
 - 2 (representing blue)
@@ -69,12 +69,12 @@ Given an array, **colors**, which contains a combination of the following three 
 Sort the array in place so that the elements of the same color are adjacent, with the colors in the order of red, white,
 and blue. The function should return the same array.
 
-> Note: The function should only return the modified **colors** array.
+> Note: The function should only return the modified colors array.
 
 #### Constraints
 
-- 1 ≤ **colors.length** ≤ 300
-- **colors[i]** can only contain 0s, 1s, or 2s.
+- 1 ≤ colors.length ≤ 300
+- colors[i] can only contain 0s, 1s, or 2s.
 
 ### Solution
 
