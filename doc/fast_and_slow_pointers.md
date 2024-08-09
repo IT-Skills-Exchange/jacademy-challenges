@@ -77,6 +77,34 @@ The space complexity of the algorithm above is O(1).
 
 ## Middle of the Linked List
 
+### Statement
+
+Given the head of a singly linked list, return the middle node of the linked list. If the number of nodes in the linked 
+list is even, there will be two middle nodes, so return the second one.
+
+#### Constraints
+
+Let n be the number of nodes in a linked list.
+
+- 1 <= n <= 100
+- 1 <= node.data <= 100
+- head != NULL
+
+### Solution
+
+The solution is here: [MiddleNode.java](../src/main/java/com/github/akarazhev/challenge/fastandslowpointers/MiddleNode.java "MiddleNode.java").
+Tests are here: [MiddleNodeTest.java](../src/test/java/com/github/akarazhev/challenge/fastandslowpointers/MiddleNodeTest.java "MiddleNodeTest.java").
+
+### Complexity
+
+#### Time complexity
+
+The time complexity of the solution above is O(n), where n is the number of nodes in the linked list.
+
+#### Space complexity
+
+The space complexity of this solution is constant, that is, O(1).
+
 <hr>
 
 Go to [README](../README.md "README.me")
