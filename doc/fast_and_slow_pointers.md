@@ -105,6 +105,48 @@ The time complexity of the solution above is O(n), where n is the number of node
 
 The space complexity of this solution is constant, that is, O(1).
 
+## Circular Array Loop
+
+### Statement
+
+We are given a circular array of non-zero integers, nums, where each integer represents the number of steps to be 
+taken either forward or backward from its current index. Positive values indicate forward movement, while negative 
+values imply backward movement. When reaching either end of the array, the traversal wraps around to the opposite end.
+
+The input array may contain a cycle, which is a sequence of indexes characterized by the following:
+
+- The sequence starts and ends at the same index.
+- The length of the sequence is at least two.
+- The loop must be in a single direction, forward or backward.
+
+>> Note: A cycle in the array does not have to originate at the beginning. It may begin from any point in the array.
+
+Your task is to determine if nums has a cycle. Return TRUE if there is a cycle. Otherwise return FALSE.
+
+#### Constraints
+
+- 1 <= nums.length <= 10^3
+- -10^5 <= nums[i] <= 5000
+- nums[i] != 0
+
+### Solution
+
+The solution is here: [ArrayLoopDetection.java](../src/main/java/com/github/akarazhev/challenge/fastandslowpointers/ArrayLoopDetection.java "ArrayLoopDetection.java").
+Tests are here: [ArrayLoopDetectionTest.java](../src/test/java/com/github/akarazhev/challenge/fastandslowpointers/ArrayLoopDetectionTest.java "ArrayLoopDetectionTest.java").
+
+### Complexity
+
+#### Time complexity
+
+The outer loop iterates through each element in the input array, contributing O(n) to the time complexity. Within this 
+loop, there is a while loop that may iterate up to O(n) times in the worst case. This is because it advances pointers
+until a cycle is detected or the end of the array is reached. Therefore, in the worst-case scenario, where the while
+loop iterates through the entire array to detect a cycle, the total time complexity of this solution becomes O(n^2).
+
+#### Space complexity
+
+We are not using any extra space in this algorithm. Therefore, the space complexity of the provided solution is O(1).
+
 <hr>
 
 Go to [README](../README.md "README.me")
