@@ -16,7 +16,7 @@ related patterns to solve a diverse range of problems.
 - Hands-on experience with using the Modified Binary Search pattern
 - The ability to choose the most appropriate of these three patterns to solve a new problem
 
-### Two Pointers
+### [Two Pointers](doc/two_pointers.md "Two Pointers")
 
 The **two pointers** pattern is a versatile technique used in problem-solving to efficiently traverse or manipulate 
 sequential data structures, such as arrays or linked lists. As the name suggests, it involves maintaining two pointers 
@@ -31,9 +31,7 @@ statement. For example, to identify whether a string is a palindrome, we can use
 the beginning and the other to iterate it from the end. At each step, we can compare the values of the two pointers and 
 see if they meet the palindrome properties.
 
-- [Two Pointers Tasks](doc/two_pointers.md "Two Pointers Tasks")
-
-### Fast and Slow Pointers
+### [Fast and Slow Pointers](doc/fast_and_slow_pointers.md "Fast and Slow Pointers")
 
 Similar to the two pointers pattern, the **fast and slow pointers** pattern uses two pointers to traverse an iterable 
 data structure, but at different speeds, often to identify patterns, detect cycles, or find specific elements. 
@@ -48,9 +46,7 @@ is a cycle, the two are bound to meet at some point during the traversal. To und
 runners on a track. While they start from the same point, they have different running speeds. If the track is circular, 
 the faster runner will overtake the slower one after completing a lap.
 
-- [Fast and Slow Pointers Tasks](doc/fast_and_slow_pointers.md "Fast and Slow Pointers Tasks")
-
-### Modified Binary Search
+### [Modified Binary Search](doc/modified_binary_search.md "Modified Binary Search")
 
 The modified binary search pattern is an extension of the traditional binary search algorithm and can be applied to a 
 wide range of problems. Before we delve into the modified version, let’s first recap the classic binary search algorithm.
@@ -78,5 +74,3 @@ binary search technique to detect anomalies in the sorted order.
 binary search can be used. It involves adapting the comparison logic within the binary search to accommodate multiple 
 specifications. Examples include finding a target range rather than a single target or finding the leftmost or the 
 rightmost occurrence of a target value.
-
-- [Modified Binary Search Tasks](doc/modified_binary_search.md "Modified Binary Search Tasks")
